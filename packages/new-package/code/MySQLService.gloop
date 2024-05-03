@@ -1,0 +1,6 @@
+{
+    "type": "customSql",
+    "connectionPoolName": "MyConnection",
+    "sqlType": "SELECT_SINGLE",
+    "query": ""
+}
