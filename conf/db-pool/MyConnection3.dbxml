@@ -1,0 +1,32 @@
+<database>
+  <name>MyConnection3</name>
+  <autoStart>true</autoStart>
+  <type>mongodb</type>
+  <connectionString>mongodb://localhost:27017</connectionString>
+  <password></password>
+  <authenticationMechanism>AUTO</authenticationMechanism>
+  <clusterSettings>
+    <localThreshold>15</localThreshold>
+    <serverSelectionTimeout>30000</serverSelectionTimeout>
+    <type>UNKNOWN</type>
+  </clusterSettings>
+  <connectionPoolSettings>
+    <maintenanceFrequency>60000</maintenanceFrequency>
+    <maintenanceInitialDelay>0</maintenanceInitialDelay>
+    <minSize>0</minSize>
+    <maxConnectionIdleTime>0</maxConnectionIdleTime>
+    <maxConnectionLifeTime>0</maxConnectionLifeTime>
+    <maxWaitTime>120000</maxWaitTime>
+    <maxSize>100</maxSize>
+  </connectionPoolSettings>
+  <serverSettings>
+    <heartbeatFrequency>10000</heartbeatFrequency>
+    <minHeartbeatFrequency>500</minHeartbeatFrequency>
+  </serverSettings>
+  <socketSettings>
+    <connectTimeout>10000</connectTimeout>
+    <readTimeout>0</readTimeout>
+    <receiveBufferSize>0</receiveBufferSize>
+    <sendBufferSize>0</sendBufferSize>
+  </socketSettings>
+</database>
